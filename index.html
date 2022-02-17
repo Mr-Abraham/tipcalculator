@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <title>Frontend Mentor | Tip calculator app</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="logo-section">
+  <img id="logo" src="./images/logo.svg" alt="">
+</div>
+<div class="tip-calculator">
+  <div class="input-section">
+    <!-- Bill ends -->
+    <div class="tip-section">
+      <h2>Bill</h2>
+      <p><img src="./images/icon-dollar.svg" alt="bill in doller">Bill Amount</p>
+      <input id="bill" type="number" placeholder="Bill Value" pattern="[0-9]+" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+      <div class="tipbtn-section">
+        <h2>Select Tip %</h2>
+        <div class="btnsection">
+          <button class="tipbtn">5%</button>
+          <button class="tipbtn">10%</button>
+          <button class="tipbtn">20%</button>
+          <button class="tipbtn">30%</button>
+          <button class="tipbtn">40%</button>
+          <button class="tipbtn">50%</button>
+        </div>
+      </div>
+      <!-- btn section ends -->
+      <div class="people-section">
+        <h2>Number of People</h2>
+        <p><img src="./images/icon-person.svg" alt="People icon">People</p>
+        <input id="peoples" type="number" placeholder="Number of People" pattern="[0-9]+" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+      </div>
+      <!-- people section ends -->
+    </div>
+  </div>
+  <!-- input section ends -->
+  <div class="preview-section">
+    <div class="tipamount">
+      <h3>Tip Amount <br>/ person </h3>
+      <h2 id="tipAmountPerPerson" >$0.00</h2>
+    </div>
+    <div class="perperson">
+      <h3>Total <br>/ person </h3>
+      <h2 id="totalPerPerson">$0.00</h2>
+    </div>
+    <button onclick="reset()" id="splitbtn">Reset</button>
+  </div>
+    </div>
+<script src="./app.js"></script>
+</body>
+</html>
