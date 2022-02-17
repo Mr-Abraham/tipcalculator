@@ -8,11 +8,11 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+- [My process](#intermidiate)
+  - [Built with](#html css and js)
+  - [What I learned](#onclick events and operators)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+  - [Useful resources](#google fonts)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -42,8 +42,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Mr-Abraham/tipcalculator)
+- Live Site URL: [Add live site URL here](https://mr-abraham.github.io/tipcalculator/)
 
 ## My process
 
@@ -54,9 +54,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
@@ -99,9 +96,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Shivam Abraham](https://github.com/Mr-Abraham)
+- Frontend Mentor - [@Mr-Abraham](https://www.frontendmentor.io/profile/Mr-Abraham)
+- Twitter - [@@abraham_shivam](https://twitter.com/abraham_shivam)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
